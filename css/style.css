@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 255, 0.3);
+}
+
 .navbar-brand {
   padding-left: 5.5rem;
   background-image: url("../img/red2mamm.svg");
