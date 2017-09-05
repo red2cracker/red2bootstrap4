@@ -34,6 +34,7 @@ html {
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0;
   padding: 0.5rem;
+  color: #000;
 }
 
 .footer .footer-sns {
@@ -78,11 +79,14 @@ html {
 }
 
 /* 푸터 링크색 */
-.footer a:link {
-  color: #fff;
+/* visited 를 지정해줘야 파란색이 안됨 */
+.footer-sns a:link, .footer-sns a:visited,
+.footer-link a:link, .footer-link a:visited {
+  color: #000;
 }
 
-.footer a:focus, .footer a:hover {
+.footer-sns a:focus, .footer-sns a:hover,
+.footer-link a:focus, .footer-link a:hover {
   color: #f00;
   text-decoration: none;
 }
