@@ -48,8 +48,12 @@ html {
   /*margin-bottom: 1.35rem;*/
 }
 
-.footer .footer-sns a {
+.footer .footer-sns li {
   margin-right: 0.5rem;
+}
+/* 마지막 목록의 마진 제거 */
+.footer .footer-sns li:last-child {
+  margin-right: 0;
 }
 
 /* SNS 설명 감추기 */
@@ -68,8 +72,12 @@ html {
   /*margin-bottom: 1.35rem;*/
 }
 
-.footer .footer-link a {
+.footer .footer-link li {
   margin-right: 0.5rem;
+}
+/* 마지막 목록의 마진 제거 */
+.footer .footer-link li:last-child {
+  margin-right: 0;
 }
 
 .footer p {
