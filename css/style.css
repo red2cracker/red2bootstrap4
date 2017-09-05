@@ -29,10 +29,77 @@ html {
   vertical-align: 0.1em;
 }
 
+/* 푸터 */
+.footer {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.footer .footer-sns {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  /*border: 1px solid #000;*/
+  /*margin-bottom: 1.35rem;*/
+}
+
+.footer .footer-sns a {
+  margin-right: 0.5rem;
+}
+
+/* SNS 설명 감추기 */
+.sns-desc {
+  display: none;
+}
+
+
+.footer .footer-link {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*margin-bottom: 1.35rem;*/
+}
+
+.footer .footer-link a {
+  margin-right: 0.5rem;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* 푸터 링크색 */
+.footer a:link {
+  color: #fff;
+}
+
+.footer a:focus, .footer a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     
+/* SNS 설명 보여주기 */
+.sns-desc {
+  display: inline;
+}
+
+.footer .footer-sns {
+  font-size: 1rem;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
