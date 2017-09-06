@@ -14,6 +14,13 @@ html {
   letter-spacing: -0.1rem;
 }
 
+/* IE11 로고 배경 위치 수정 */
+/* Only works in IE11 */
+/* http://eond.com/css/365424 */
+_:-ms-fullscreen, :root .navbar-brand {
+    background-position: -108px 0px;
+}
+
 .navbar-brand span {
   font-weight: bold;
 }
@@ -37,8 +44,9 @@ html {
 /* https://color.adobe.com/ko/ */
 
 #cse-keyword {
-  padding: 5px 10px;
-  border: none;
+  /*padding: 5px 10px;
+  border: none;*/
+  /*font-size: 1.1rem;*/
 }
 
 /*
