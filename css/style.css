@@ -74,6 +74,10 @@ _:-ms-fullscreen, :root .navbar-brand {
   color: #f00;
 }
 
+.div-border * {
+  border: 1px solid #000;
+}
+
 
 
 /* 푸터 */
@@ -245,7 +249,7 @@ _:-ms-fullscreen, :root .navbar-brand {
 
 /* 메뉴에 마우스를 올리면 하위 메뉴 나타남 */
 /* http://blog.naver.com/scabbard2/220224438042 */
-.nav-item:hover > .dropdown-menu{
+.nav-item:hover > .dropdown-menu {
   display: block;
   margin: 0;
 }
@@ -260,7 +264,9 @@ _:-ms-fullscreen, :root .navbar-brand {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-
+.container {
+  max-width: 1280px;
+}
 
 }
 
