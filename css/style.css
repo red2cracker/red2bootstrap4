@@ -43,10 +43,17 @@ _:-ms-fullscreen, :root .navbar-brand {
 /* https://www.w3schools.com/css/css3_buttons.asp */
 /* https://color.adobe.com/ko/ */
 
+/*
+#cse-search-box {
+  flex: auto;
+  justify-content: flex-end;
+}*/
+
 #cse-keyword {
+  width: 180px;
   /*padding: 5px 10px;
   border: none;*/
-  /*font-size: 1.1rem;*/
+  /*font-size: 1.2rem;*/
 }
 
 /*
