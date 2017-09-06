@@ -31,6 +31,36 @@ html {
   vertical-align: 0.1em;
 }
 
+/* 검색창 */
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+/* https://color.adobe.com/ko/ */
+
+#cse-keyword {
+  padding: 5px 10px;
+  border: none;
+}
+
+/*
+#cse-keyword:hover {
+  border: 1px solid #f00;
+}
+*/
+
+#cse-search-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #2567FC;
+  color: #fff;
+  cursor: pointer;
+}
+
+#cse-search-button:hover {
+  color: #f00;
+}
+
+
+
 /* 푸터 */
 .footer {
   background-color: rgba(0, 0, 0, 0.05);
@@ -149,6 +179,12 @@ html {
 */
 .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* 위키 크기 조정 */
+.navbar-nav li:nth-child(2) .nav-link {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
 }
 
 /* 메뉴 화살표 수직 위치 조정 */
