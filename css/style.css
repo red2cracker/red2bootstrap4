@@ -18,7 +18,7 @@ html {
 /* Only works in IE11 */
 /* http://eond.com/css/365424 */
 _:-ms-fullscreen, :root .navbar-brand {
-    background-position: -108px 0px;
+    background-position: -73px 0px;
 }
 
 .navbar-brand span {
@@ -243,7 +243,10 @@ _:-ms-fullscreen, :root .navbar-brand {
   margin: 0;
 }
 
-
+/* IE11 에서 배경 위치 */
+_:-ms-fullscreen, :root .navbar-brand {
+    background-position: -108px 0px;
+}
 
 }
 
