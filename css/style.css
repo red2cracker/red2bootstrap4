@@ -168,6 +168,65 @@ _:-ms-fullscreen, :root .navbar-brand {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+#cse-search-button {
+  display: none;
+}
+
+/* 메뉴에 마우스를 올리면 하위 메뉴 나타남 */
+/* http://blog.naver.com/scabbard2/220224438042 */
+.nav-item:hover > .dropdown-menu {
+  display: block;
+  margin: 0;
+}
+
+.nav-link {
+  /*background-color: rgba(0, 0, 0, 0.2); */
+  line-height: 1.9rem; /* 마우스 영역 조절하는게 맞는데 잘 안된다.. */
+  /*border-left: 1px solid #000;*/
+  font-weight: bold;
+  font-size: 1rem;
+}
+/*
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}*/
+
+/* 네비게이션 링크색 */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #f00;
+}
+
+/* 드롭다운 메뉴 */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #ff6100;
+  border-radius: 0.25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #f00;
+  text-decoration: underline;
+  background-color: #f8f9fa;
+}
+
 
 
 }
@@ -212,13 +271,13 @@ _:-ms-fullscreen, :root .navbar-brand {
 }
 
 /* 네비게이션 링크색 */
-.navbar-dark .navbar-nav .nav-link {
+/*.navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: #f00;
-}
+}*/
 
 /* 드롭다운 메뉴 */
 .dropdown-menu {
@@ -249,14 +308,19 @@ _:-ms-fullscreen, :root .navbar-brand {
 
 /* 메뉴에 마우스를 올리면 하위 메뉴 나타남 */
 /* http://blog.naver.com/scabbard2/220224438042 */
-.nav-item:hover > .dropdown-menu {
+/*.nav-item:hover > .dropdown-menu {
   display: block;
   margin: 0;
-}
+}*/
 
 /* IE11 에서 배경 위치 */
 _:-ms-fullscreen, :root .navbar-brand {
     background-position: -108px 0px;
+}
+
+
+#cse-search-button {
+  display: inline;
 }
 
 }
