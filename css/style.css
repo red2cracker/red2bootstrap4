@@ -43,11 +43,12 @@ _:-ms-fullscreen, :root .navbar-brand {
 /* https://www.w3schools.com/css/css3_buttons.asp */
 /* https://color.adobe.com/ko/ */
 
-/*
+
 #cse-search-box {
-  vertical-align: middle;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
-*/
+
 
 #cse-keyword {
   width: 180px;
@@ -179,6 +180,11 @@ _:-ms-fullscreen, :root #cse-search-button {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+#cse-search-box {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 #cse-search-button {
   display: none;
