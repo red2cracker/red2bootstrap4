@@ -45,15 +45,20 @@ _:-ms-fullscreen, :root .navbar-brand {
 
 /*
 #cse-search-box {
-  flex: auto;
-  justify-content: flex-end;
-}*/
+  vertical-align: middle;
+}
+*/
 
 #cse-keyword {
   width: 180px;
   padding: 5px 10px;
   border: none;
   /*font-size: 1.2rem;*/
+}
+
+/* IE11 검색창 높이 조정 */
+_:-ms-fullscreen, :root #cse-keyword {
+  font-size: 1.3rem;
 }
 
 /*
@@ -70,10 +75,17 @@ _:-ms-fullscreen, :root .navbar-brand {
   cursor: pointer;
 }
 
+/* IE11 에서 검색버튼 위치 조정*/
+_:-ms-fullscreen, :root #cse-search-button {
+  position: relative;
+  top: -4px;
+}
+
 #cse-search-button:hover {
   color: #f00;
 }
 
+/* 테스트용 */
 .div-border * {
   border: 1px solid #000;
 }
