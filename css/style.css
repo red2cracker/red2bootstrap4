@@ -43,7 +43,7 @@ _:-ms-fullscreen, :root .navbar-brand {
 /* https://www.w3schools.com/css/css3_buttons.asp */
 /* https://color.adobe.com/ko/ */
 
-
+/* 모바일에서 검색창 마진 추가 */
 #cse-search-box {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
