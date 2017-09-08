@@ -99,6 +99,8 @@ _:-ms-fullscreen, :root #cse-search-button {
 
 .div-border section,
 .div-border aside {
+  margin: 0;
+  padding: 0;
   border: 1px solid #000;
 }
 
