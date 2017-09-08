@@ -86,8 +86,14 @@ _:-ms-fullscreen, :root #cse-search-button {
   color: #f00;
 }
 
+
+
+.container {
+  max-width: 100%;
+}
+
 /* 테스트용 */
-.div-border * {
+.div-border div {
   border: 1px solid #000;
 }
 
@@ -203,6 +209,7 @@ _:-ms-fullscreen, :root #cse-search-button {
   /*border-left: 1px solid #000;*/
   font-weight: bold;
   font-size: 1rem;
+  /*padding: .5rem 3rem; */ /* 모바일 메뉴 높이 버그 */
 }
 /*
 .nav-link:hover {
