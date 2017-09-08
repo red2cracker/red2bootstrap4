@@ -93,7 +93,12 @@ _:-ms-fullscreen, :root #cse-search-button {
 }
 
 /* 테스트용 */
-.div-border div {
+.div-border > div {
+  border: 1px solid #f00;
+}
+
+.div-border section,
+.div-border aside {
   border: 1px solid #000;
 }
 
