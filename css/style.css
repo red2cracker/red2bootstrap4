@@ -137,6 +137,43 @@ _:-ms-fullscreen, :root #cse-search-button {
 }
 
 
+/* 로컬 네비게이션 */
+
+.nav-local {
+  background-color: #e6e6e6;
+}
+
+.nav-local h2 {
+  margin: 0;
+  font-weight: bolder; /* 제목을 더 굵게 */
+  padding: 0.4rem; /*5px;*/
+}
+
+.nav-local ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-local li {
+  
+}
+
+
+.nav-local a {
+  color:#000;
+  display: block;
+  padding: 0.4rem; /*5px;*/
+}
+
+.nav-local a:focus, .nav-local a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+
+
 
 /* 푸터 */
 .footer {
