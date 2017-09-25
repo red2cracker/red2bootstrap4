@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
+/* 스킨 스타일 */
+
+.outlogin {
+  display: none;
+}
 
 
+.row-remove {
+  margin-left: 0;
+  margin-right: 0;
+}
 
+.latest {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dummy-border {
+  border: 1px solid #000;
+}
 
 
 
@@ -15,6 +32,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.outlogin {
+  display: block;
+
+}
+
 
 
 
