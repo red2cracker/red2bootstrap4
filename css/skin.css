@@ -44,6 +44,9 @@
   border: 1px solid #000;
   border-radius: 0;
 }
+.outlogin .form-control:focus {
+  border: 1px solid #f00;
+}
 
 .outlogin .btn-login {
   width: 100%;
