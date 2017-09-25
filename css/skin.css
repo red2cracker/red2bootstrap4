@@ -6,7 +6,7 @@
   display: none;
 }
 
-
+/* 가로 스크롤 버그 해결 */
 .row-remove {
   margin-left: 0;
   margin-right: 0;
@@ -35,7 +35,14 @@
 
 .outlogin {
   display: block;
+  margin-bottom: 1rem;
+  background-color: #e6e6e6;
+  padding: 0.8rem;
+}
 
+.outlogin .form-control {
+  border: 1px solid #000;
+  border-radius: 0;
 }
 
 
