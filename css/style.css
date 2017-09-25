@@ -136,6 +136,10 @@ _:-ms-fullscreen, :root #cse-search-button {
   /*border: 1px solid #000;*/
 }
 
+.div-border aside {
+  padding-left: 0;
+}
+
 
 /* 로컬 네비게이션 */
 
@@ -328,7 +332,9 @@ _:-ms-fullscreen, :root #cse-search-button {
   background-color: #f8f9fa;
 }
 
-
+.div-border aside {
+  padding-left: 1rem;
+}
 
 }
 
