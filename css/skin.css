@@ -45,6 +45,14 @@
   border-radius: 0;
 }
 
+.outlogin .btn-login {
+  border-radius: 0;
+  cursor: pointer;
+}
+.outlogin .btn-login:hover {
+  color: #f00;
+}
+
 
 
 
