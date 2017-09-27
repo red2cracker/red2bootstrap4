@@ -2,6 +2,23 @@
 
 /* 스킨 스타일 */
 
+/* 모바일 로그인 */
+.outlogin-m {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.outlogin-m a {
+  color:#fff;
+}
+
+.outlogin-m a:focus, .outlogin-m a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+
 .outlogin {
   display: none;
 }
@@ -93,6 +110,13 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+/* 모바일 로그인은 태블릿부터 보이지 않음 */
+.outlogin-m {
+  display: none;
+}
+
+
+/* 태블릿, PC 로그인 */
 .outlogin {
   display: block;
   margin-bottom: 1rem;
