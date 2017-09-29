@@ -129,6 +129,10 @@ _:-ms-fullscreen, :root #cse-search-button {
   /*border: 1px solid #f00;*/
 }
 
+.div-border {
+  margin-top: 1rem;
+}
+
 .div-border section,
 .div-border aside {
   margin: 0; /* 중요 */
