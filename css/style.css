@@ -184,6 +184,14 @@ _:-ms-fullscreen, :root #cse-search-button {
 
 
 
+/*구글 애드센스 광고 */
+
+.banner-bottom {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
 
 
 /* 푸터 */
@@ -436,6 +444,12 @@ _:-ms-fullscreen, :root .navbar-brand {
 #cse-search-button {
   display: inline;
 }
+
+/*
+.banner-bottom {
+  display: none;
+}
+*/
 
 }
 
