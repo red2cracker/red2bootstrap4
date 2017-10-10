@@ -38,15 +38,15 @@
 
 /* 다닥다닥 붙은것 때문에 아래 마진 추가 */
 .latest-row {
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 .latest {
   /*padding-left: 0;
   padding-right: 0;*/
   /*background-color: #ecf0f1;*/
-  padding-left: 0.6rem;
-  padding-right: 0.6rem;
+  /*padding-left: 0.6rem;
+  padding-right: 0.6rem;*/
 }
 
 /* 최신글 메뉴 링크색 */
@@ -88,12 +88,12 @@
 
 .latest li a {
   /*display: block;*/
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
 }
 
 /* 지역 변수(?) */
 .latest .reply_num {
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   /*font-weight: bold;*/
 }
 

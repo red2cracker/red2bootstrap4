@@ -189,6 +189,9 @@ _:-ms-fullscreen, :root #cse-search-button {
 .banner-bottom {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  /*display: flex;
+  justify-content: center;*/
+  /*border: 1px solid #000;*/
 }
 
 
